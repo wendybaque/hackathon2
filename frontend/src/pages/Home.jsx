@@ -1,4 +1,4 @@
-import Counter from "@components/Counter";
+// eslint-disable-next-line import/no-unresolved
 import logo from "@assets/logo.svg";
 
 export default function Home() {
@@ -6,9 +6,6 @@ export default function Home() {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>Hello Vite + React !</p>
-
-      <Counter />
-
       <p>
         Edit <code>App.jsx</code> and save to test HMR updates.
       </p>
