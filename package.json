@@ -26,6 +26,7 @@
     "@emotion/styled": "^11.9.3",
     "@mui/material": "^5.8.6",
     "joi": "^17.6.0",
+    "react-hook-form": "^7.33.0",
     "yup": "^0.32.11"
   }
 }
