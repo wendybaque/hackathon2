@@ -9,7 +9,7 @@ function DailyNews() {
         className="carousel slide relative"
         data-bs-ride="carousel"
       >
-        <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+        <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-0">
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
@@ -33,10 +33,14 @@ function DailyNews() {
         </div>
         <div
           className="carousel-inner relative w-full overflow-hidden"
-          style={{ backgroundColor: "#e89759" }}
+          style={{
+            backgroundColor: "#e89759",
+            width: "500px",
+            height: "115px",
+          }}
         >
           <div className="carousel-item active float-left w-full">
-            <div style={{ height: "100px" }}>
+            <div>
               <p style={{ padding: "5px", height: "100px" }}>
                 News Formation:
                 <br />
@@ -46,7 +50,7 @@ function DailyNews() {
             </div>
           </div>
           <div className="carousel-item float-left w-full">
-            <div style={{ height: "100px" }}>
+            <div>
               <p style={{ padding: "5px", height: "100px" }}>
                 News RH:
                 <br />
@@ -56,7 +60,7 @@ function DailyNews() {
             </div>
           </div>
           <div className="carousel-item float-left w-full">
-            <div style={{ height: "100px" }}>
+            <div>
               <p style={{ padding: "5px", height: "100px" }}>
                 News Projets:
                 <br />
