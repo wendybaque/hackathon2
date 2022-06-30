@@ -3,7 +3,6 @@
 /* eslint-disable no-nested-ternary */
 import React, { useState } from "react";
 import json from "../data/fakedata";
-import logo from "../assets/apside_logo.png";
 
 function MyProjects() {
   const [list, setList] = useState(json);
@@ -13,23 +12,15 @@ function MyProjects() {
   return (
     <div className="mx-4 bg-white">
       <header className="flex flex-row items-center">
-        <img className="w-1/6 my-4" src={logo} alt="Apside logo" />
         <h1 className="text-center mx-10 text-3xl text-orange-400 font-bold">
-          My Projects
+          My Favorites
         </h1>
       </header>
-      <div className="flex flex-row border-2 border-black h-16">
-        <select className="w-1/6 flex items-center bg-white ml-10 ">
+      <div className="flex flex-row border-2 border-black h-10">
+        <select className="w-2/5 flex items-center bg-white ml-10 ">
           <option>PROJET</option>
           {list.map((elem) => {
             return <option value="">{elem.nom}</option>;
-          })}
-        </select>
-        <div className="w-2/5 flex items-center mr-10 ">DESCRIPTION</div>
-        <select className="w-1/6 flex items-center bg-white  ml-10 ">
-          <option>TECH</option>
-          {list.map((elem) => {
-            return <option value="">{elem.tech}</option>;
           })}
         </select>
         <select className="w-1/6 flex items-center bg-white  ml-10 ">
@@ -48,10 +39,8 @@ function MyProjects() {
       </div>
       {list.map((elements) => {
         return (
-          <div className="flex flex-row border-2 hover:bg-slate-200 border-gray-200 py-4">
-            <div className="w-1/5">{elements.nom}</div>
-            <div className="w-2/5 mr-10">{elements.description}</div>
-            <div className="w-1/6 ml-10">{elements.tech}</div>
+          <div className="flex flex-row border-2 max-h-12 overflow-hidden hover:bg-slate-200 border-gray-200 py-4">
+            <div className="w-2/5">{elements.nom}</div>
             <div className="w-1/6 ml-10">{elements.agence}</div>
             <div className="w-1/6 flex items-center">
               {elements.status === "pending" ? (

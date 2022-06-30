@@ -21,7 +21,7 @@ function MySearch() {
           List of on going projects
         </h1>
       </header>
-      <div className="flex flex-row border-2 border-black h-16 my-10">
+      <div className="flex flex-row border-2 border-black h-16 mt-10">
         <div className="w-1/5 flex items-center ml-8">PROJECTS</div>
         <div className="w-2/5 flex items-center ml-8 ">DESCRIPTION</div>
         <div className="w-1/6 flex items-center ml-8 ">TECH</div>
@@ -35,7 +35,7 @@ function MySearch() {
       </div>
       {list.map((elements) => {
         return (
-          <div className="flex flex-row border-2 border-white-200 py-4">
+          <div className="flex flex-row hover:bg-slate-200 border-2 border-white-200 py-4">
             <div className="w-1/5">{elements.project_title}</div>
             <div className="w-2/5 mr-8">{elements.project_description}</div>
             <div className="w-1/6 ml-8">{elements.technologies_used}</div>
