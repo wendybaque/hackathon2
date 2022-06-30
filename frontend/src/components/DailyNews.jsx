@@ -31,9 +31,12 @@ function DailyNews() {
             aria-label="Slide 3"
           />
         </div>
-        <div className="carousel-inner relative w-full overflow-hidden">
+        <div
+          className="carousel-inner relative w-full overflow-hidden"
+          style={{ backgroundColor: "#e89759" }}
+        >
           <div className="carousel-item active float-left w-full">
-            <div style={{ backgroundColor: "powderblue", height: "100px" }}>
+            <div style={{ height: "100px" }}>
               <p style={{ padding: "5px", height: "100px" }}>
                 News Formation:
                 <br />
@@ -43,7 +46,7 @@ function DailyNews() {
             </div>
           </div>
           <div className="carousel-item float-left w-full">
-            <div style={{ backgroundColor: "powderblue", height: "100px" }}>
+            <div style={{ height: "100px" }}>
               <p style={{ padding: "5px", height: "100px" }}>
                 News RH:
                 <br />
@@ -53,7 +56,7 @@ function DailyNews() {
             </div>
           </div>
           <div className="carousel-item float-left w-full">
-            <div style={{ backgroundColor: "powderblue", height: "100px" }}>
+            <div style={{ height: "100px" }}>
               <p style={{ padding: "5px", height: "100px" }}>
                 News Projets:
                 <br />
