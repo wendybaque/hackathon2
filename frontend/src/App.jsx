@@ -2,11 +2,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MyProjects from "@components/MyProjects";
-import MySearch from "@components/MySearch";
-import Form from "@components/ProjectForm";
-import DailyNews from "@components/DailyNews";
-import Home from "@components/Home";
+import MyProjects from "./components/MyProjects";
+import MySearch from "./components/MySearch";
+import Form from "./pages/Form";
+import DailyNews from "./components/DailyNews";
+import Home from "./pages/Home";
 
 import "./App.css";
 

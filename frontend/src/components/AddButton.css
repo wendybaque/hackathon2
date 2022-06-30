@@ -1,0 +1,21 @@
+.add_button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--color3);
+  color: var(--BackgroundColor);
+  border: none;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
+  transition: 0.3s;
+  position: fixed;
+  bottom: 15px;
+  left: 100%;
+  margin-left: -105.5px;
+}
+
+.add_button:hover {
+  background-color: #e89759;
+}
