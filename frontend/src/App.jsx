@@ -1,10 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MyProjects from "./components/MyProjects";
-import MySearch from "./components/MySearch";
-import Form from "./components/ProjectForm";
-import DailyNews from "./components/DailyNews";
+import Project from "./pages/Project";
+import Form from "./pages/Form";
 import Home from "./pages/Home";
 
 import "./App.css";
@@ -15,10 +13,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/MyProjects" element={<MyProjects />} />
-          <Route path="/MySearch" element={<MySearch />} />
+          <Route path="/Project" element={<Project />} />
           <Route path="/Form" element={<Form />} />
-          <Route path="/DailyNews" element={<DailyNews />} />
         </Routes>
       </BrowserRouter>
     </div>
