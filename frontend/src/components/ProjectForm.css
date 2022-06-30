@@ -1,0 +1,55 @@
+.project_form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.project_input {
+  color: var(--MainColor);
+  padding: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.project_date {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.button_form {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: var(--color3);
+  color: var(--BackgroundColor);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.start_date,
+.end_date {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
