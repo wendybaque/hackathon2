@@ -3,10 +3,15 @@ import "tw-elements";
 
 function DailyNews() {
   return (
-    <div>
+    <div
+      className="flex justify-center my-20"
+      style={{
+        backgroundColor: "#e89759",
+      }}
+    >
       <div
         id="carouselExampleIndicators"
-        className="carousel slide relative"
+        className="flex justify-center w-full m-10 carousel relative"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-0">
@@ -43,27 +48,23 @@ function DailyNews() {
             aria-label="Slide 5"
           />
         </div>
-        <div
-          className="carousel-inner relative w-full overflow-hidden"
-          style={{
-            backgroundColor: "#e89759",
-            width: "500px",
-            height: "115px",
-          }}
-        >
+        <div className="w-3/4 carousel-inner relative overflow-hidden">
           <div className="carousel-item active float-left w-full">
             <div>
-              <p style={{ padding: "5px", height: "100px" }}>
+              <p className="mb-10" style={{ padding: "5px", height: "100px" }}>
                 News Formation:
                 <br />
-                formation intensive à l'anglais commercial toute la semaine
+                Formation intensive à l'anglais commercial toute la semaine
                 prochaine! Pensez à réserver vos places obligatoires.
               </p>
             </div>
           </div>
           <div className="carousel-item float-left w-full">
             <div>
-              <p style={{ padding: "5px", height: "100px" }}>
+              <p
+                className="w-full mb-10"
+                style={{ padding: "5px", height: "100px" }}
+              >
                 News RH:
                 <br />
                 notre nouvelle alternante arrive demain. Pensez à saluer Wendy
@@ -71,9 +72,9 @@ function DailyNews() {
               </p>
             </div>
           </div>
-          <div className="carousel-item float-left w-full">
+          <div className="mb-10 carousel-item float-left w-full">
             <div>
-              <p style={{ padding: "5px", height: "100px" }}>
+              <p className="w-full" style={{ padding: "5px", height: "100px" }}>
                 News Projets:
                 <br />
                 L'équipe de Lyon développe une app pour faciliter la
@@ -84,7 +85,10 @@ function DailyNews() {
           </div>
           <div className="carousel-item float-left w-full">
             <div>
-              <p style={{ padding: "5px", height: "100px" }}>
+              <p
+                className="w-full mb-10"
+                style={{ padding: "5px", height: "100px" }}
+              >
                 Daily News:
                 <br />
                 Aujourd'hui c'est vendredi. On devrait pas avoir à vous le
@@ -95,7 +99,10 @@ function DailyNews() {
           </div>
           <div className="carousel-item float-left w-full">
             <div>
-              <p style={{ padding: "5px", height: "100px" }}>
+              <p
+                className="w-full mb-10"
+                style={{ padding: "5px", height: "100px" }}
+              >
                 Quote of the day:
                 <br />
                 Tester, c'est douter <br />

@@ -11,11 +11,11 @@ function Home() {
       <div>
         <Nav />
       </div>
-      <div className="flex flex-row border-4 border-blue-800">
-        <div className="mx-8">
+      <div className="flex flex-row justify-between">
+        <div className="w-1/2 mx-8">
           <DailyNews />
         </div>
-        <div className="w-full mx-8 max-h-96 overflow-hidden border-2 border-green-400">
+        <div className="flex items-center justify-center w-1/2 min-h-96 max-h-96">
           <MyProjects />
         </div>
       </div>
