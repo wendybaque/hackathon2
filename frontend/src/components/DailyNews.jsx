@@ -30,6 +30,18 @@ function DailyNews() {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           />
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          />
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          />
         </div>
         <div
           className="carousel-inner relative w-full overflow-hidden"
@@ -67,6 +79,27 @@ function DailyNews() {
                 L'équipe de Lyon développe une app pour faciliter la
                 communication interne. N'hésitez pas à vous rapprocher d'eux si
                 vous avez des resources ou des talents à proposer.
+              </p>
+            </div>
+          </div>
+          <div className="carousel-item float-left w-full">
+            <div>
+              <p style={{ padding: "5px", height: "100px" }}>
+                Daily News:
+                <br />
+                Aujourd'hui c'est vendredi. On devrait pas avoir à vous le
+                rappeler, mais on le fait quand même: <br />
+                pas de mise en prod le vendredi!
+              </p>
+            </div>
+          </div>
+          <div className="carousel-item float-left w-full">
+            <div>
+              <p style={{ padding: "5px", height: "100px" }}>
+                Quote of the day:
+                <br />
+                Tester, c'est douter <br />
+                John
               </p>
             </div>
           </div>
