@@ -15,7 +15,10 @@ function App() {
   return (
     <div>
       <Nav />
-      <Home />
+      <div style={{ width: "500px" }}>
+        <DailyNews />
+      </div>
+      <MyProjects />
       <BrowserRouter>
         <Routes>
           <Route path="/Home" element={<Home />} />
