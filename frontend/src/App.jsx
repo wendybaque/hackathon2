@@ -7,20 +7,25 @@ import MySearch from "@components/MySearch";
 import Form from "@components/ProjectForm";
 import DailyNews from "@components/DailyNews";
 import Home from "@components/Home";
+import Nav from "@components/Nav";
 
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/MyProjects" element={<MyProjects />} />
-        <Route path="/MySearch" element={<MySearch />} />
-        <Route path="/Form" element={<Form />} />
-        <Route path="/DailyNews" element={<DailyNews />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <Nav />
+      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/MyProjects" element={<MyProjects />} />
+          <Route path="/MySearch" element={<MySearch />} />
+          <Route path="/Form" element={<Form />} />
+          <Route path="/DailyNews" element={<DailyNews />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 export default App;
