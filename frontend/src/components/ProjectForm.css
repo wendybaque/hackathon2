@@ -1,0 +1,90 @@
+.form {
+  background-image: url("../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.project_form {
+  background-color: var(--BackgroundColor);
+  background-size: contain;
+  width: 50%;
+  height: 100vh;
+  margin-left: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.project_label {
+  color: var(--MainColor);
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.project_input {
+  color: var(--color2);
+  width: 90%;
+  padding: 5px;
+}
+
+.project_date {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.button_form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: var(--color3);
+  color: var(--BackgroundColor);
+  padding: 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.start_date,
+.end_date {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.client_agency {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.new_project {
+  text-align: center;
+  font: var(--title-font);
+  font-size: 40px;
+  font-weight: bold;
+  color: #e77620;
+}

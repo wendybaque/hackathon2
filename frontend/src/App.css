@@ -18,12 +18,12 @@
   line-height: 1.5;
   box-sizing: border-box;
   letter-spacing: 0.1rem;
-  --BackgroundColor: #F0F0F0;
+  --BackgroundColor: #f0f0f0;
   --MainColor: #183650;
   /*tables or cards titles color*/
   --color2: #183650;
-/*CTA colors*/
-  --color3: #E77620;
+  /*CTA colors*/
+  --color3: #e77620;
   --border-radius: 18px;
   --box-shadow: 0 3px 7px var(--MainColor);
 }

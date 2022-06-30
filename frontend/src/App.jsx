@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import MyProjects from "@components/MyProjects";
 import MySearch from "@components/MySearch";
-import Form from "@components/Form";
+import Form from "@components/ProjectForm";
 import DailyNews from "@components/DailyNews";
 import Home from "@components/Home";
 
