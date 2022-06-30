@@ -11,14 +11,9 @@ function MyProjects() {
   };
   return (
     <div className="mx-4 bg-white">
-      <header className="flex flex-row items-center">
-        <h1 className="text-center mx-10 text-3xl text-orange-400 font-bold">
-          My Favorites
-        </h1>
-      </header>
-      <div className="flex flex-row border-2 border-black h-10">
-        <select className="w-2/5 flex items-center bg-white ml-10 ">
-          <option>PROJET</option>
+      <div className="flex flex-row border-2 h-10">
+        <select className="w-2/5 flex items-center bg-white">
+          <option>MES PROJETS SUIVIS</option>
           {list.map((elem) => {
             return <option value="">{elem.nom}</option>;
           })}
@@ -37,36 +32,40 @@ function MyProjects() {
         </select>
         <div className="w-20 flex items-center mx-4 " />
       </div>
-      {list.map((elements) => {
-        return (
-          <div className="flex flex-row border-2 max-h-12 overflow-hidden hover:bg-slate-200 border-gray-200 py-4">
-            <div className="w-2/5">{elements.nom}</div>
-            <div className="w-1/6 ml-10">{elements.agence}</div>
-            <div className="w-1/6 flex items-center">
-              {elements.status === "pending" ? (
-                <div className="flex justify-center w-2/3 p-4 bg-red-400  rounded-full">
-                  Pending
-                </div>
-              ) : elements.status === "in progress" ? (
-                <div className="flex justify-center w-2/3 p-4 bg-yellow-400 rounded-full ">
-                  In progress
-                </div>
-              ) : (
-                <div className="flex justify-center w-2/3 p-4 bg-green-400 rounded-full ">
-                  Finished
-                </div>
-              )}
+      <div className="">
+        {list.map((elements) => {
+          return (
+            <div className="flex flex-row border-2 hover:bg-slate-200 border-gray-200">
+              <div className="flex items-center w-2/5">{elements.nom}</div>
+              <div className="flex items-center w-1/6 ml-10">
+                {elements.agence}
+              </div>
+              <div className="w-1/6 flex  ml-10">
+                {elements.status === "pending" ? (
+                  <div className="flex justify-center max-h-10 w-full mx-1 items-center text-xs bg-red-400 rounded-full">
+                    Pending
+                  </div>
+                ) : elements.status === "in progress" ? (
+                  <div className="flex justify-center max-h-10 w-full mx-1 items-center text-xs bg-yellow-400 rounded-full ">
+                    In progress
+                  </div>
+                ) : (
+                  <div className="flex justify-center w-full mx-1 items-center max-h-10 text-xs bg-green-400 rounded-full ">
+                    Finished
+                  </div>
+                )}
+              </div>
+              <div
+                className="grid drop-shadow-xl cursor-pointer rounded-full h-10 w-10 mx-4 place-content-center hover:bg-red-600 hover:text-white hover:border-4 text-red-700 font-bold"
+                type="button"
+                onClick={() => deleteProject(elements.id)}
+              >
+                X
+              </div>
             </div>
-            <div
-              className="grid border-2 drop-shadow-xl cursor-pointer rounded-full h-10 w-20 mx-4 place-content-center hover:bg-red-600 hover:text-white hover:border-4 text-red-700 font-bold"
-              type="button"
-              onClick={() => deleteProject(elements.id)}
-            >
-              X
-            </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 }
