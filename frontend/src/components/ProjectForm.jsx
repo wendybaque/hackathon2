@@ -56,12 +56,12 @@ export default function ProjectForm() {
           </select>
         </label>
         <label htmlFor="project_name" className="project_label">
-          Required skills
+          Required soft skills
           <input
             required
             className="project_input"
             type="text"
-            placeholder="Required skills"
+            placeholder="Required skills (ex: agility, communication, english... )"
             name="skills"
             {...register("skills", { required: true })}
           />
