@@ -13,13 +13,13 @@ function MyProjects() {
     <div className="mx-4 bg-white">
       <div className="flex flex-row border-2 h-10">
         <select className="w-2/5 flex items-center bg-white">
-          <option>MES PROJETS SUIVIS</option>
+          <option>FOLLOWED PROJECTS</option>
           {list.map((elem) => {
             return <option value="">{elem.nom}</option>;
           })}
         </select>
         <select className="w-1/6 flex items-center bg-white  ml-10 ">
-          <option>AGENCE</option>
+          <option>AGENCY</option>
           {list.map((elem) => {
             return <option value="">{elem.agence}</option>;
           })}
