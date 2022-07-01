@@ -10,7 +10,7 @@ const json = [
   },
   {
     id: "2",
-    nom: "Projet de malade",
+    nom: "CMS Association",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam debitis ullam odio quaerat consequuntur amet voluptate nisi et, nobis, perspiciatis non! Obcaecati perspiciatis laudantium nulla quis numquam ullam harum tenetur.",
     tech: "hmtl",
@@ -19,7 +19,7 @@ const json = [
   },
   {
     id: "3",
-    nom: "Projet incroyable",
+    nom: "Site vitrine commerce",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam debitis ullam odio quaerat consequuntur amet voluptate nisi et, nobis, perspiciatis non! Obcaecati perspiciatis laudantium nulla quis numquam ullam harum tenetur.",
     tech: "Python",
@@ -28,7 +28,7 @@ const json = [
   },
   {
     id: "4",
-    nom: "Projet magnifique",
+    nom: "Projet Emmaüs",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam debitis ullam odio quaerat consequuntur amet voluptate nisi et, nobis, perspiciatis non! Obcaecati perspiciatis laudantium nulla quis numquam ullam harum tenetur.",
     tech: "Java",
@@ -37,7 +37,7 @@ const json = [
   },
   {
     id: "5",
-    nom: "Projet pas ouf",
+    nom: "Top secret",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam debitis ullam odio quaerat consequuntur amet voluptate nisi et, nobis, perspiciatis non! Obcaecati perspiciatis laudantium nulla quis numquam ullam harum tenetur.",
     tech: "css",
@@ -46,7 +46,7 @@ const json = [
   },
   {
     id: "6",
-    nom: "Projet qui passe",
+    nom: "Airbus project",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam debitis ullam odio quaerat consequuntur amet voluptate nisi et, nobis, perspiciatis non! Obcaecati perspiciatis laudantium nulla quis numquam ullam harum tenetur.",
     tech: "Php",

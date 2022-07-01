@@ -76,7 +76,7 @@ function Chat({ socket, username }) {
           type="button"
           onClick={sendMessage}
         >
-          <img className="w-2/3" src={arrow} alt="arrow" />
+          <img className="w-1/3" src={arrow} alt="arrow" />
         </button>
       </div>
     </div>
