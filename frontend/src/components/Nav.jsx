@@ -14,7 +14,7 @@ export default function Navbar() {
           <span className="text-cyan-900 text-lg">
             vendredi 1er Juillet 2022
           </span>
-          <div className="bg-purple-600">
+          <div className="bg-orange-400 rounded-md">
             <Clock />
           </div>
         </div>
