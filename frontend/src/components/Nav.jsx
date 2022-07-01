@@ -1,3 +1,5 @@
+import Clock from "react-digital-clock";
+
 import logo from "../assets/apside_logo.png";
 import profile from "../assets/profile.jpg";
 
@@ -12,7 +14,9 @@ export default function Navbar() {
           <span className="text-cyan-900 text-lg">
             vendredi 1er Juillet 2022
           </span>
-          <span className="text-cyan-900 text-lg">14:30</span>
+          <div className="bg-purple-600">
+            <Clock />
+          </div>
         </div>
       </div>
       <div className="flex pr-8">
