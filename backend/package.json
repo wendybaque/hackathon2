@@ -19,6 +19,7 @@
     "express": "^4.17.2",
     "joi": "^17.6.0",
     "mysql2": "^2.3.3",
+    "socket.io": "^4.5.1",
     "template-fullstack": "file:.."
   },
   "rules": {
